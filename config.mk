@@ -14,10 +14,8 @@
 
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
-    AmbientPlayProvider \
     SoundPickerPrebuilt \
     WallpaperPickerGooglePrebuilt \
-    NexusLauncherPrebuilt \
     WellbeingPrebuilt \
     MarkupGoogle \
     WeatherClient
@@ -65,7 +63,7 @@ ADDITIONAL_FONTS_FILE := vendor/pixelstyle/fonts/google-sans.xml
 PRODUCT_COPY_FILES += \
     vendor/pixelstyle/etc/sysconfig/pixel.xml:system/etc/sysconfig/pixel.xml
 
-# Set Pixel blue light theme on Gboard
+# Set CTOSP blue light theme on Gboard
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.ime.theme_id=5
 
